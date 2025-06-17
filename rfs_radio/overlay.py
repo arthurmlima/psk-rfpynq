@@ -18,7 +18,7 @@ from .transmitter import Transmitter
 from .data_inspector import DataInspector, DataInspectorCore
 from .switch import Switch
 
-from rfsoc_radio import clocks
+from rfs_radio import clocks
 
 class RadioOverlay(Overlay):
     

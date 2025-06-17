@@ -28,7 +28,7 @@ class ImageViewer():
     Useful for updating an image inline with Jupyter Labs.
     """
     def __init__(self, description='Image Viewer', 
-                 width='200px', height='200px'):
+                 width='600px', height='600px'):
         super().__init__()
         
         # Create a label object to act as a description for the image
